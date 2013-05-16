@@ -16,6 +16,21 @@ use default short cmd : cs
 you can define your own short cmd: mycs
 
     sh -x install.sh mycs
+    
+
+####import
+make sure  $HOME/bin in your envionment variables:
+
+    #check if in
+    echo $PATH
+    
+you can add to $HOME/.bashrc or $HOME/.bash_profile:
+
+    echo 'export PATH=$PATH:$HOME/bin' >> $HOME/.bashrc
+    source $HOME/.bashrc
+    #check again
+    echo $PATH
+
 
 ##Test
 if install default:
@@ -38,7 +53,7 @@ The result expect in default like this:
     root:123456
     ken:result
 
-[ken@Luna: ~/bin]
+    [ken@Luna: ~/bin]
 
 ##Edit
 Edit your own cheatsheet in dir:
@@ -51,7 +66,7 @@ Edit your own cheatsheet in dir:
 
 2.edit the content
   
-  the format is yaml[one kind of config file]
+  the content format is yaml [one kind of config file]
 
     newkey: |
         value1
