@@ -63,7 +63,8 @@ Edit your own cheatsheet in dir:
 
   ext is .kv
 
-    touch vim.kv shell.kv
+    cd CSData
+    vim shell.kv
 
 2.edit the content
   
