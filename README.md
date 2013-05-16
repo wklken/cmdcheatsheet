@@ -1,6 +1,21 @@
 A quick cheatsheet command line tool in shell
 ===========================================
 
+python实现的命令行小抄速查工具
+
+分分钟安装运行，后续不用老是到手册文档文本记录/历史/google那些地方查，用过一次，感觉记不住，加入到数据文件中，后续一个命令查到
+
+可以在文件中录入key:value形式的命令，然后在命令行通过cs key快速查看
+
+可以记录：
+    
+    vim插件的快捷键
+    shell常用/组合命令(很长很难记住的)
+    服务器的host/pwd等等，或者跳转命令
+    各类语言特性/快捷键/命令
+    等等 
+    
+
 CSData means CheatSheetData
 
 ##Install
