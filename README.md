@@ -18,7 +18,7 @@ you can define your own short cmd: mycs
     sh -x install.sh mycs
     
 
-####import
+####important
 make sure  $HOME/bin in your envionment variables:
 
     #check if in
@@ -31,6 +31,7 @@ you can add to $HOME/.bashrc or $HOME/.bash_profile:
     #check again
     echo $PATH
 
+done, the goto Test
 
 ##Test
 if install default:
