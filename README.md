@@ -5,7 +5,9 @@ CSData means CheatSheetData
 
 ##Install
 
-git clone 
+    git clone git@github.com:wklken/cmdcheatsheet.git
+    cd cmdcheatsheet
+    
 
 use default short cmd : cs
 
@@ -19,11 +21,24 @@ you can define your own short cmd: mycs
 if install default:
 
     cs test
-    
+
 if you defined your own short cmd: mycs
 
     mycs test
 
+
+The result expect in default like this:
+
+    [ken@Luna: ~/bin] cs test
+    [host] test
+    root:123456
+    ken:result
+
+    [vim] test
+    root:123456
+    ken:result
+
+[ken@Luna: ~/bin]
 
 ##Edit
 Edit your own cheatsheet in dir:
