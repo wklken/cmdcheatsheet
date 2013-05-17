@@ -71,6 +71,20 @@ The result expect in default like this:
 
     [ken@Luna: ~/bin]
 
+if you got this:
+
+    [ken@~/bin$] cs test
+    Traceback (most recent call last):
+    File "/home/ken/bin/cs", line 8, in <module>
+        import yaml
+
+you need to install yaml for python first:
+
+    sudo pip install pyyaml
+    
+
+
+
 ##Edit
 Edit your own cheatsheet in dir:
 
