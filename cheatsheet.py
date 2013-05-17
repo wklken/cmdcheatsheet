@@ -27,6 +27,7 @@ def build_map(meta_map, key_map, dir_path):
         data = yaml.load(f)
 
         for key, value in data.items():
+            key = str(key)
             meta_key = '[%s] %s' %(filename, key)
             meta_map.update({meta_key: value})
 
