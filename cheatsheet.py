@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
-
 #desc: use for key word to search the shortcut
+
 import os.path
 import glob
 import sys
@@ -11,7 +11,6 @@ COLOR_NONE = "\033[m"
 COLOR_GREEN = "\033[01;32m"
 COLOR_RED = "\033[01;31m"
 COLOR_YELLOW = "\033[01;33m"
-
 
 def get_color_str(color, msg):
     return color + msg + COLOR_NONE
@@ -31,11 +30,7 @@ def build_map(meta_map, key_map, dir_path):
             meta_key = '[%s] %s' %(filename, key)
             meta_map.update({meta_key: value})
 
-            if key in key_map:
-                key_map.get(key).append(meta_key)
-            else:
-                key_map.update({key: [meta_key]})
-
+            key_map.setdefault(key, []).append(meta_key)
 
 if __name__ == '__main__':
     meta_map = {}
@@ -56,8 +51,4 @@ if __name__ == '__main__':
             print
     else:
         print get_color_str(COLOR_RED, 'miss match')
-
-
-
-
 
