@@ -18,6 +18,10 @@ python实现的命令行小抄速查工具
 
 CSData means CheatSheetData
 
+### Show
+
+![use_img](https://github.com/wklken/gallery/blob/master/tools/cmdcheatsheet.png)
+
 ##Install
 
     git clone git@github.com:wklken/cmdcheatsheet.git
