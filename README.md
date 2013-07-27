@@ -20,7 +20,7 @@ CSData means CheatSheetData
 
 ### Show
 
-![use_img](https://github.com/wklken/gallery/blob/master/tools/cmdcheatsheet.png)
+![use_img](https://github.com/wklken/gallery/blob/master/tools/cmdcheatsheet.png?raw=true)
 
 ##Install
 
