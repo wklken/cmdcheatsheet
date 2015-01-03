@@ -8,13 +8,13 @@ python实现的命令行小抄速查工具
 可以在文件中录入key:value形式的命令，然后在命令行通过cs key快速查看
 
 可以记录：
-    
+
     vim插件的快捷键
     shell常用/组合命令(很长很难记住的)
     服务器的host/pwd等等，或者跳转命令
     各类语言特性/快捷键/命令
-    等等 
-    
+    等等
+
 
 CSData means CheatSheetData
 
@@ -26,7 +26,7 @@ CSData means CheatSheetData
 
     git clone git@github.com:wklken/cmdcheatsheet.git
     cd cmdcheatsheet
-    
+
 
 use default short cmd : cs
 
@@ -35,14 +35,14 @@ use default short cmd : cs
 you can define your own short cmd: mycs
 
     sh -x install.sh mycs
-    
+
 
 ####important
 make sure  $HOME/bin in your envionment variables:
 
     #check if in
     echo $PATH
-    
+
 you can add to $HOME/.bashrc or $HOME/.bash_profile:
 
     echo 'export PATH=$PATH:$HOME/bin' >> $HOME/.bashrc
@@ -85,7 +85,7 @@ if you got this:
 you need to install yaml for python first:
 
     sudo pip install pyyaml
-    
+
 
 
 
@@ -100,7 +100,7 @@ Edit your own cheatsheet in dir:
     vim shell.kv
 
 2.edit the content
-  
+
   the content format is yaml [one kind of config file]
 
     newkey: |
@@ -111,5 +111,17 @@ Edit your own cheatsheet in dir:
 
     cheatsheet newkey
 
+### Donation
+
+You can Buy me a coffee:)  [link](http://www.wklken.me/pages/donation.html)
 
 
+---------------
+
+wklken(Pythonista/Vimer)
+
+Email: wklken@yeah.net
+
+Blog: http://www.wklken.me
+
+Github: https://github.com/wklken
